@@ -29,8 +29,9 @@ export default function GridLayout() {
 
     return (
         <section className='bg-blue-800 p-6 text-center'>
-            <h1 className='text-white font-bold text-4xl'>welcome
-!to the game! Find the color🟥</h1>
+
+            <h1 className='text-white font-bold text-4xl'>welcome! to the game! Find the color🟥</h1>
+
             <div className='grid grid-cols-10  p-4  max-w-3xl mx-auto   '>
                 {ceels.map((_, index) => (
 
