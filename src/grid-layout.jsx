@@ -51,7 +51,7 @@ export default function GridLayout() {
 
                         {found && index === secretIndex && (
                             <div className="absolute inset-0 flex items-center justify-center text-6xl">
-                                🐷
+                                <img src="unnamed.png" alt="YISHAI OSSI" />
                             </div>
                         )}
                     </div>
